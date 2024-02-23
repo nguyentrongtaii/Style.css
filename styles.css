@@ -1,0 +1,41 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "DM Sans", sans-serif;
+}
+
+/* Common point  */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+.hero__media {
+    margin-top: 70px;
+}
